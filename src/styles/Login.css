@@ -1,0 +1,201 @@
+.loginframe {
+    background: #FFFFFF;
+    position: relative;
+    margin: 0 auto 35px; /* 가운데 정렬 및 아래 여백 추가 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 0px 8px 0;
+    width: 140px; /* 전체 너비를 차지하도록 수정 */
+    box-sizing: border-box;
+}
+.login {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 20px 10px 20px;
+}
+.signupemail {
+    position: relative;
+    margin: 0 0 22px 12.8px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.searchid {
+    margin: 6px 11.4px 0 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.searchpw {
+    margin-top: 6px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.naverimg {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/trialprojects/trial-3BAvwJQ1XZbfWMvudF3Dqi/assets/images/ecdf8092de96b21ea9d24272a49cd3bed37dca3c?Expires=1712036994&KeyName=fn12-cdn&Signature=a8DdypOi-TmdfzYhJoM9ijg0xMM=') 50% / cover no-repeat;
+    width: 64px;
+    height: 64px;
+}
+.logintext {
+    margin: 0 auto 10px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+}
+.membershiptext {
+    position: relative;
+    margin: 0 0 13px 17.8px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+}
+.widthline {
+    background: #000000;
+    position: relative;
+    margin-bottom: 28px;
+    width: 536px;
+    height: 1px;
+}
+.emailtext {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #CECACA;
+    text-align: left;
+}
+.pwtext {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #CECACA;
+}
+.logo {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/trialprojects/trial-3BAvwJQ1XZbfWMvudF3Dqi/assets/images/300a504cdd5e3b67dfdf2540058587326c6d445c?Expires=1712036994&KeyName=fn12-cdn&Signature=fJ1odT3Cb3cw47rbetQcc52kMBw=') 50% / cover no-repeat;
+    position: relative;
+    margin-left: 21px;
+    width: 117px;
+    height: 58px;
+}
+.kakaotalkimg {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/trialprojects/trial-3BAvwJQ1XZbfWMvudF3Dqi/assets/images/35150da16bce97de54477597d14cbcbd9c5a5e5c?Expires=1712036994&KeyName=fn12-cdn&Signature=LWL3ITJPbKFckSNXA89rMVp378Q=') 50% / cover no-repeat;
+    margin: 3px 0 6px 0;
+    width: 55px;
+    height: 55px;
+}
+.googleimg {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/trialprojects/trial-3BAvwJQ1XZbfWMvudF3Dqi/assets/images/3b61fc4feaf84a5bd7775ed8b01bc06e0ebc0b3e?Expires=1712036994&KeyName=fn12-cdn&Signature=mZ2lKyUlc-C8O6fRJZDEynAVchk=') 50% / cover no-repeat;
+    margin: 3px 0 8px 0;
+    width: 55px;
+    height: 53px;
+}
+.lengthline {
+    background: #000000;
+    margin-right: 10px;
+    width: 1px;
+    height: 30px;
+}
+.imgframe {
+    position: relative;
+    margin: 0 0 29px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* 가로 정렬 */
+    column-gap: 27px;
+    width: 228px;
+    box-sizing: border-box;
+}
+.kakaotalkimg,
+.naverimg,
+.googleimg {
+    align-self: center; /* 이미지를 세로 방향으로 정렬되는 것을 방지 */
+}
+.emailframe {
+    border-radius: 143px;
+    border: 1px solid #6D6D6D;
+    background: #FFFFFF;
+    position: relative;
+    margin: 0 auto 10px auto;
+    padding: 18px 34px;
+    width: 300px;
+    box-sizing: border-box;
+}
+.emailpwsearchframe {
+    position: relative;
+    margin-left: 26px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.pwframe {
+    border-radius: 143px;
+    border: 1px solid #6D6D6D;
+    background: #FFFFFF;
+    position: relative;
+    margin: 10 10 30px 19px;
+    padding: 18px 34px;
+    width: 300px;
+    box-sizing: border-box;
+}
+.loginentireframe {
+    border-radius: 17px;
+    border: 3px solid #484848;
+    background: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column; /* 요소들을 세로로 정렬하기 위해 추가 */
+    align-items: center; /* 가운데 정렬을 위해 추가 */
+    justify-content: center; /* 가운데 정렬을 위해 추가 */
+}
+.login,
+.signupemail,
+.searchid,
+.searchpw,
+.naverimg,
+.logintext,
+.membershiptext,
+.widthline,
+.emailtext,
+.pwtext,
+.logo,
+.kakaotalkimg,
+.googleimg,
+.lengthline,
+.imgframe,
+.emailframe,
+.emailpwsearchframe,
+.pwframe,
+.loginentireframe {
+    box-sizing: border-box;
+    text-align: center; /* 가운데 정렬을 위해 추가 */
+}

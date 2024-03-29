@@ -1,0 +1,188 @@
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 37.5px;
+    height: 37.5px;
+    box-sizing: border-box;
+  }
+  .searchimg {
+    width: 100%;
+    height: 100%;
+  }
+  .searchtext {
+    margin: 7.8px 12px 5.8px 0;
+    display: inline-block;
+    width: 540.3px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #CECACA;
+  }
+  .logo {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/trialprojects/trial-AJ1tSnJHqNAZJ7jQMvMmNA/assets/images/300a504cdd5e3b67dfdf2540058587326c6d445c?Expires=1712033591&KeyName=fn12-cdn&Signature=5dAHGtqJT43TryGLb75c7NSuO9Y=') 50% / cover no-repeat;
+    margin: 9px 0 8px 0;
+    width: 117px;
+    height: 58px;
+  }
+  .login {
+    margin: 25px 0 26px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .entire {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 78px 87px 25px 87px;
+    width: 100%;
+    max-width: 1440px;
+    box-sizing: border-box;
+  }
+  .themeupload {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .myuploadtheme {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .themelike {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .thememake {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: #828282;
+  }
+  .themewatch {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    color: #3D3D3D;
+  }
+  .themesave {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: #828282;
+  }
+  .community {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: #828282;
+  }
+  .thememenu {
+    background: #FAFAFA;
+    position: relative;
+    margin-bottom: 689px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 29px 0 26px 0;
+    width: 1266px;
+    box-sizing: border-box;
+  }
+  .searchbg {
+    margin: 0 29.8px 27px 29.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1173.2px;
+    box-sizing: border-box;
+  }
+  .searchframe {
+    border-radius: 143px;
+    border: 1px solid #6D6D6D;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18.3px 30.3px 19.3px 46px;
+    width: 666px;
+    box-sizing: border-box;
+  }
+  .themelikeframe {
+    border-radius: 10px;
+    background: #E9E9E9;
+    position: relative;
+    margin: 1px 13px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 11px 0 10px 1.3px;
+    width: 254px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .myuploadthemeframe {
+    border-radius: 10px;
+    background: #E9E9E9;
+    position: relative;
+    margin: 1px 15px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 11px 0 10px 0.9px;
+    width: 254px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .uploadbg {
+    margin: 0 7px;
+    display: flex;
+    flex-direction: row;
+    width: 692px;
+    box-sizing: border-box;
+  }
+  .themeuploadfrmae {
+    border-radius: 10px;
+    background: #F3AE29;
+    position: relative;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 11px 0.4px 10px 0;
+    width: 156px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .searchtext,
+.login,
+.themeupload,
+.myuploadtheme,
+.themelike,
+.themewatch,
+.themesave,
+.community,
+.searchbg,
+.searchframe,
+.themelikeframe,
+.myuploadthemeframe,
+.themeuploadfrmae {
+  box-sizing: border-box; /* 추가 */
+}
