@@ -15,7 +15,7 @@ function MainPage() {
     };
 
     const handleCommunityClick = () => {
-        window.location.href = "community.html";
+        window.location.href = "community";
     };
 
     const handleThemeSaveClick = () => {
