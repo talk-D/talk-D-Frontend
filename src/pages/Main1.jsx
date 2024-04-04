@@ -1,11 +1,8 @@
 import React from 'react';
-import '../styles/Main.css';
+import '../styles/Main1.css';
 
-function MainPage() {
-    const handleLoginClick = () => {
-        window.location.href = "login";
-    };
-
+function Main1Page() {
+    
     const handleViewthemeClick = () => {
         window.location.href = "viewtheme";
     };
@@ -48,11 +45,10 @@ function MainPage() {
                     <div className="searchtext">테마명 / 작가명 검색하기</div> 
                 </div> 
                 <img className="logo" alt="Logo" src="logo.png" /> 
-                <div className="login-signup" id="loginLink" onClick={handleLoginClick}>
-                    로그인 / 회원가입
-                    </div>
+                <div className="mypage">마이페이지</div>
+                <img className="myproflile" alt="Myprofile" src="myprofile.png" />
             </div> 
         </div> 
     ); 
 };
-export default MainPage;
+export default Main1Page;

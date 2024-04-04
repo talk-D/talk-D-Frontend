@@ -60,7 +60,9 @@
     border-color: #6d6d6d;
     border-radius: 143px;
     height: 75px;
+    left: 354px;
     position: absolute;
+    top: 78px;
     width: 666px;
 }
 
@@ -92,19 +94,6 @@
     position: absolute;
     top: 87px;
     width: 117px;
-}
-
-.screen .login-signup {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 1120px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 120px;
-    white-space: nowrap;
 }
 
 .screen .todaytheme {
@@ -168,4 +157,24 @@
     line-height: normal;
     position: absolute;
     top: 28px;
+}
+.screen .mypage {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1109px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 103px;
+    white-space: nowrap;
+}
+.screen .myprofile {
+    height: 78px;
+    left: 1211px;
+    object-fit: cover;
+    position: absolute;
+    top: 77px;
+    width: 78px;
 }
