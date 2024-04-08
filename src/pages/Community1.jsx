@@ -11,7 +11,7 @@ function Community1Page() {
           <img className="searchimg" alt="Searchimg" src="searchimg.png" />
         </div>
         <div className="mypage">마이페이지</div>
-        <img className="profileimg" alt="Profileimg" src="profileimg.png" />
+        <img className="profileimg" alt="Profileimg" src="myprofileimg.png" />
         <div className="thememenu">
           <div className="themewatch">테마 둘러보기</div>
           <div className="thememake">테마 제작</div>

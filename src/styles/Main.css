@@ -16,7 +16,7 @@
     height: 642px; 
     left: 87px; 
     position: absolute; 
-    top: 370px; 
+    top: 350px; 
     width: 1266px; 
 } 
 .screen .hottheme { 
@@ -66,7 +66,6 @@
 
 .screen .searchimg {
     height: 50px;
-    left: 591px;
     position: absolute;
     top: 11px;
     width: 50px;
@@ -77,8 +76,6 @@
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
-    left: 45px;
-    letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: 24px;
@@ -102,8 +99,8 @@
     left: 1120px;
     letter-spacing: 0;
     line-height: normal;
+    top :125px;
     position: absolute;
-    top: 120px;
     white-space: nowrap;
 }
 

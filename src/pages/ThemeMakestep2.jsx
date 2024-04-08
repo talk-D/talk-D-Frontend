@@ -1,9 +1,12 @@
 import React from 'react';
-import '../styles/ThemeMake.css';
+import '../styles/ThemeMakestep2.css';
 
-function ThemeMakePage() {
+function ThemeMakestep2Page() {
+  const handleStep1Click = () => {
+    window.location.href = "Step1";
+};
     return (
-        <div className="div-wrapper">
+      <div className="div-wrapper">
   <div className="div">
     <div className="mypage">마이페이지</div>
     <div className="thememenu">
@@ -13,17 +16,16 @@ function ThemeMakePage() {
       <div className="community">커뮤니티</div>
     </div>
     <div className="searchframe">
-      <img className="searchimg" alt="searchimg" src="searchimg.png" />
+      <img className="searchimg" alt="Searchimg" src="searchimg.png" />
       <div className="searchtext">테마명 / 작가명 검색하기</div>
     </div>
     <img className="profileimg" alt="Profileimg" src="myprofileimg.png" />
     <img className="logo" alt="Logo" src="logo.png" />
-    <div className="overlap-group">
-      <div className="step" />
-      <div className="text-wrapper">STEP1. 테마 정보</div>
+    <div className="step1frame">
+      <div className="step1" id="Step1Btn" onClick={handleStep1Click}>
+        STEP1. 테마 정보</div>
     </div>
-    <div className="overlap-2">
-      <div className="step" />
+    <div className="step2frame">
       <div className="step2">STEP2. 테마 제작</div>
     </div>
     <div className="thumbnail-wrapper">
@@ -41,42 +43,41 @@ function ThemeMakePage() {
     <div className="tapbar-wrapper">
       <div className="tapbar">탭바</div>
     </div>
-    <div className="step-wrapper">
-      <div className="text-wrapper">STEP3. 테마 다운</div>
+    <div className="step3frame">
+      <div className="step3">STEP3. 테마 다운</div>
     </div>
-    <div className="overlap-3">
-      <div className="next-wrapper">
-        <div className="text-wrapper-2">다음</div>
-      </div>
-      <div className="back-wrapper">
+    <div className="bottomframe">
+      <div className="bottombox" />
+      <div className="backbtnframe">
         <div className="text-wrapper-2">이전</div>
       </div>
-      <div className="box" />
+      <div className="nextbtnframe">
+        <div className="text-wrapper-2">다음</div>
+      </div>
     </div>
     <div className="notification-wrapper">
       <div className="notification">알림창</div>
     </div>
     <div className="leftbox">
-      <div className="shapeicon">
-        <div className="text-wrapper-3">도형</div>
-        <img className="tdesign-icon" alt="Tdesign icon" src="tdesign_icon.png" />
+      <div className="shape-icon">
+        <div className="shapeiconframe">도형</div>
+        <img className="shapeicon" alt="shapeicon" src="shapeicon.png" />
       </div>
-      <div className="basicicon">
-        <div className="text-wrapper-4">기본 아이콘</div>
-        <img className="fluent-sticker-add" alt="Fluent sticker add" src="fluent_sticker-add-24-regular.png" />
+      <div className="basic-icon">
+        <div className="basiciconframe">기본 아이콘</div>
+        <img className="basicicon" alt="basicicon" src="basicicon.png" />
       </div>
-      <div className="texticon">
-        <div className="text-wrapper-5">텍스트</div>
-        <img className="vector" alt="Vector" src="vector.png" />
+      <div className="text-icon">
+        <div className="texticonframe">텍스트</div>
+        <img className="texticon" alt="texticon" src="texticon.png" />
       </div>
-      <div className="mystorageicon">
-        <div className="text-wrapper-6">내 보관함</div>
-        <img className="clarity-directory" alt="Clarity directory" src="clarity_directory-line.png" />
+      <div className="mystorage-icon">
+        <div className="mystorageiconframe">내 보관함</div>
+        <img className="mystorageicon" alt="mystorageicon" src="mystorageicon.png" />
       </div>
     </div>
   </div>
 </div>
-);
+    );
 };
-export default ThemeMakePage;
-
+export default ThemeMakestep2Page;

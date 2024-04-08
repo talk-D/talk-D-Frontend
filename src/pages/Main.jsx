@@ -11,7 +11,7 @@ function MainPage() {
     };
 
     const handleThemeMakeClick = () => {
-        window.location.href = "thememake";
+        window.location.href = "thememakestep2";
     };
 
     const handleCommunityClick = () => {
