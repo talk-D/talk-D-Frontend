@@ -133,7 +133,7 @@
   width: 78px;
 }
 
-.div-wrapper .overlap-group {
+.div-wrapper .modifyframe {
   background-color: #f6f6f6;
   height: 571px;
   position: absolute;
@@ -187,34 +187,9 @@
   line-height: normal;
   position: absolute;
   white-space: nowrap;
-  top: 8px;
+  top: 14px;
   left: 19px;
   width: 180px;
-}
-
-.div-wrapper .phonenumbertext-wrapper {
-  background-color: #ffffff;
-  border: 1px solid #d9d9d9;
-  border-radius: 43px;
-  height: 49px;
-  position: absolute;
-  width: 430px;
-  left: 457px;
-  top: 288px;
-}
-
-.div-wrapper .phonenumbertext {
-  color: #cec9c9;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  white-space: nowrap;
-  top: 10px;
-  left: 19px;
-  width: 145px;
 }
 
 .div-wrapper .informationtext-wrapper {
@@ -225,7 +200,7 @@
   position: absolute;
   width: 430px;
   left: 457px;
-  top: 351px;
+  top: 288px;
 }
 
 .div-wrapper .informationtext {
@@ -237,9 +212,9 @@
   line-height: normal;
   position: absolute;
   white-space: nowrap;
-  top: 9px;
+  top: 14px;
   left: 19px;
-  width: 135px;
+  width: 130px;
 }
 
 .div-wrapper .nicknametext-wrapper {
@@ -262,7 +237,7 @@
   line-height: normal;
   position: absolute;
   white-space: nowrap;
-  top: 9px;
+  top: 14px;
   left: 19px;
   width: 48px;
 }
@@ -287,7 +262,7 @@
   line-height: normal;
   position: absolute;
   white-space: nowrap;
-  top: 8px;
+  top: 14px;
   left: 19px;
   width: 80px;
 }
@@ -301,7 +276,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 172px;
+  top: 180px;
   width: 62px;
 }
 
@@ -314,21 +289,8 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 234px;
+  top: 242px;
   width: 56px;
-}
-
-.div-wrapper .phonenumber {
-  color: #3c3c3c;
-  font-family: "Inter-SemiBold", Helvetica;
-  font-size: 20px;
-  font-weight: 600;
-  left: 368px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 299px;
-  width: 78px;
 }
 
 .div-wrapper .information {
@@ -336,12 +298,12 @@
   font-family: "Inter-SemiBold", Helvetica;
   font-size: 20px;
   font-weight: 600;
-  left: 358px;
+  left: 350px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 361px;
-  width: 92px;
+  top: 307px;
+  width: 100px;
 }
 
 .div-wrapper .nickname {
@@ -353,7 +315,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 110px;
+  top: 118px;
   width: 63px;
 }
 
@@ -431,7 +393,7 @@
 
 .div-wrapper .myprofile-2 {
   color: #000000;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 0;
@@ -463,7 +425,7 @@
   width: 3px;
 }
 
-.div-wrapper .mypage {
+.div-wrapper .mypage-2 {
   color: #3c3c3c;
   font-family: "Inter-SemiBold", Helvetica;
   font-size: 42px;

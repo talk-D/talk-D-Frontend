@@ -10,6 +10,7 @@ import Community2 from './pages/Community2';
 import Step1 from './pages/Step1';
 import ThemeMakestep2 from './pages/ThemeMakestep2';
 import MyPage from './pages/MyPage';
+import MyPage2 from './pages/MyPage2';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/step1' element={<Step1 />} />
           <Route path='/thememakestep2' element={<ThemeMakestep2 />} />
           <Route path='/mypage' element={<MyPage />} />
+          <Route path='/mypage2' element={<MyPage2 />} />
         </Routes>
       </BrowserRouter>
     </div>

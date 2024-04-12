@@ -2,6 +2,9 @@ import React from 'react';
 import '../styles/MyPage.css';
 
 function MypagePage() {
+  const handleChangePwClick = () => {
+    window.location.href = "mypage2";
+};
   return (
     <div className="div-wrapper">
       <div className="div">
@@ -18,15 +21,12 @@ function MypagePage() {
         <img className="mypagelogo" alt="Mypagelogo" src="logo.png" />
         <div className="mypagetext">마이페이지</div>
         <img className="myprofile" alt="Myprofile" src="myprofileimg.png" />
-        <div className="overlap-group">
+        <div className="modifyframe">
           <div className="modify-btn-wrapper">
             <div className="modify-btn">회원정보 수정</div>
           </div>
           <div className="emailtext-wrapper">
             <div className="emailtext">talkD@naver.com</div>
-          </div>
-          <div className="phonenumbertext-wrapper">
-            <div className="phonenumbertext">01012345678</div>
           </div>
           <div className="informationtext-wrapper">
             <div className="informationtext">톡디 사랑해요</div>
@@ -39,7 +39,6 @@ function MypagePage() {
           </div>
           <div className="ID">아이디</div>
           <div className="email">이메일</div>
-          <div className="phonenumber">전화번호</div>
           <div className="information">한 줄 소개</div>
           <div className="nickname">닉네임</div>
           <img className="img" alt="Myprofile" src="myprofileimg.png" />
@@ -51,11 +50,13 @@ function MypagePage() {
           </div>
         </div>
         <div className="informationmodify">회원정보 수정</div>
-        <div className="changepw">비밀번호 변경</div>
+        <div className="changepw" id="changepwLink" onClick={handleChangePwClick}>
+          비밀번호 변경
+          </div>
         <div className="myprofile-2">내 프로필</div>
         <div className="inquire">문의하기</div>
         <img className="mypageline" alt="Mypageline" src="line.png" />
-        <div className="mypage">마이페이지</div>
+        <div className="mypage-2">마이페이지</div>
       </div>
     </div>
   );
