@@ -5,6 +5,9 @@ function LoginPage() {
   const handleSignupClick = () => {
     window.location.href = "signup";
   };
+  const handleLoginBtnClick = () => {
+    window.location.href = "main2";
+  };
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -15,16 +18,16 @@ function LoginPage() {
         <div className="emailframe">
           <input
             type="text"
-            className="emailinput" // 새로운 클래스 추가
+            className="emailinput"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="이메일"
             style={{
-              border: 'none', // 테두리 없애기
-              fontSize: '20px', // 글자 크기
-              position: 'absolute', // 위치 설정
-              left: '24px', // 좌표 값
-              top: '16px', // 좌표 값
+              border: 'none',
+              fontSize: '20px', 
+              position: 'absolute', 
+              left: '24px', 
+              top: '16px', 
             }}
           />
         </div>
@@ -34,16 +37,16 @@ function LoginPage() {
         <div className="pwframe">
           <input
             type="password"
-            className="pwinput" // 새로운 클래스 추가
+            className="pwinput" 
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="비밀번호"
             style={{
-              border: 'none', // 테두리 없애기
-              fontSize: '20px', // 글자 크기
-              position: 'absolute', // 위치 설정
-              left: '24px', // 좌표 값
-              top: '16px', // 좌표 값
+              border: 'none', 
+              fontSize: '20px', 
+              position: 'absolute', 
+              left: '24px', 
+              top: '16px', 
             }}
           />
         </div>
@@ -54,7 +57,8 @@ function LoginPage() {
           이메일로 회원가입하기
         </div>
         <div className="loginbtnframe">
-          <div className="loginbtntext">로그인</div>
+          <div className="loginbtntext" id="main2Link" onClick={handleLoginBtnClick}>
+            로그인</div>
         </div>
       </div>
     </div>

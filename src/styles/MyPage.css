@@ -1,0 +1,476 @@
+.div-wrapper { 
+  background-color: #ffffff;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  width: 100%; 
+}
+
+.div-wrapper .div {
+  background-color: #ffffff;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.div-wrapper .thememenu {
+  background-color: #fafafa;
+  height: 84px;
+  left: 87px;
+  position: absolute;
+  top: 173px;
+  width: 1266px;
+}
+
+.div-wrapper .viewtheme {
+  color: #828282;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  left: 158px;
+}
+
+.div-wrapper .thememake {
+  color: #828282;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  left: 474px;
+}
+
+.div-wrapper .mystorage {
+  color: #828282;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  left: 1011px;
+}
+
+.div-wrapper .community {
+  color: #828282;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  left: 746px;
+}
+
+.div-wrapper .searchframe {
+  background-color: #ffffff;
+  border: 1px solid #6d6d6d;
+  border-radius: 143px;
+  height: 75px;
+  position: absolute;
+  top: 64px;
+  width: 666px;
+  left: 387px;
+}
+
+.div-wrapper .searchimg {
+  height: 50px;
+  left: 591px;
+  position: absolute;
+  top: 11px;
+  width: 50px;
+}
+
+.div-wrapper .searchtext {
+  color: #cec9c9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 24px;
+  left: 45px;
+  white-space: nowrap;
+}
+
+.div-wrapper .mypagelogo {
+  height: 58px;
+  left: 183px;
+  object-fit: cover;
+  position: absolute;
+  top: 73px;
+  width: 117px;
+}
+
+.div-wrapper .mypagetext {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 87px;
+  left: 1104px;
+  white-space: nowrap;
+}
+
+.div-wrapper .myprofile {
+  height: 78px;
+  left: 1206px;
+  object-fit: cover;
+  position: absolute;
+  top: 61px;
+  width: 78px;
+}
+
+.div-wrapper .overlap-group {
+  background-color: #f6f6f6;
+  height: 571px;
+  position: absolute;
+  top: 329px;
+  width: 1014px;
+  left: 339px;
+}
+
+.div-wrapper .modify-btn-wrapper {
+  background-color: #faa422;
+  border: 1px solid #d9d9d9;
+  border-radius: 43px;
+  height: 49px;
+  position: absolute;
+  width: 200px;
+  left: 687px;
+  top: 430px;
+}
+
+.div-wrapper .modify-btn {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  left: 13px;
+  width: 174px;
+}
+
+.div-wrapper .emailtext-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 43px;
+  height: 49px;
+  position: absolute;
+  width: 430px;
+  left: 457px;
+  top: 225px;
+}
+
+.div-wrapper .emailtext {
+  color: #cec9c9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  white-space: nowrap;
+  top: 8px;
+  left: 19px;
+  width: 180px;
+}
+
+.div-wrapper .phonenumbertext-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 43px;
+  height: 49px;
+  position: absolute;
+  width: 430px;
+  left: 457px;
+  top: 288px;
+}
+
+.div-wrapper .phonenumbertext {
+  color: #cec9c9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  white-space: nowrap;
+  top: 10px;
+  left: 19px;
+  width: 145px;
+}
+
+.div-wrapper .informationtext-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 43px;
+  height: 49px;
+  position: absolute;
+  width: 430px;
+  left: 457px;
+  top: 351px;
+}
+
+.div-wrapper .informationtext {
+  color: #cec9c9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  white-space: nowrap;
+  top: 9px;
+  left: 19px;
+  width: 135px;
+}
+
+.div-wrapper .nicknametext-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 43px;
+  height: 49px;
+  position: absolute;
+  width: 430px;
+  left: 457px;
+  top: 100px;
+}
+
+.div-wrapper .nicknametext {
+  color: #cec9c9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  white-space: nowrap;
+  top: 9px;
+  left: 19px;
+  width: 48px;
+}
+
+.div-wrapper .i-dtext-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 43px;
+  height: 49px;
+  position: absolute;
+  width: 430px;
+  left: 457px;
+  top: 163px;
+}
+
+.div-wrapper .i-dtext {
+  color: #cec9c9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  white-space: nowrap;
+  top: 8px;
+  left: 19px;
+  width: 80px;
+}
+
+.div-wrapper .ID {
+  color: #3c3c3c;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 387px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 172px;
+  width: 62px;
+}
+
+.div-wrapper .email {
+  color: #3c3c3c;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 387px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 234px;
+  width: 56px;
+}
+
+.div-wrapper .phonenumber {
+  color: #3c3c3c;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 368px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 299px;
+  width: 78px;
+}
+
+.div-wrapper .information {
+  color: #3c3c3c;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 358px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 361px;
+  width: 92px;
+}
+
+.div-wrapper .nickname {
+  color: #3c3c3c;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 387px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 110px;
+  width: 63px;
+}
+
+.div-wrapper .img {
+  height: 147px;
+  left: 120px;
+  object-fit: cover;
+  position: absolute;
+  top: 148px;
+  width: 147px;
+}
+
+.div-wrapper .changepicture-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 43px;
+  height: 37px;
+  position: absolute;
+  width: 106px;
+  left: 86px;
+  top: 315px;
+}
+
+.div-wrapper .text-wrapper1 {
+  color: #c0c0c0;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  left: 2px;
+  white-space: nowrap;
+  width: 100px
+}
+
+.div-wrapper .deletepicture-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 43px;
+  height: 37px;
+  position: absolute;
+  width: 106px;
+  left: 195px;
+  top: 315px;
+}
+
+.div-wrapper .informationmodify {
+  color: #000000;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 398px;
+  left: 118px;
+  width: 140px;
+}
+
+.div-wrapper .changepw {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 447px;
+  left: 118px;
+  width: 140px;
+}
+
+.div-wrapper .myprofile-2 {
+  color: #000000;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 495px;
+  left: 118px;
+  width: 100px;
+}
+
+.div-wrapper .inquire {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 544px;
+  left: 118px;
+  width: 95px;
+}
+
+.div-wrapper .mypageline {
+  height: 180px;
+  left: 87px;
+  position: absolute;
+  top: 399px;
+  width: 3px;
+}
+
+.div-wrapper .mypage {
+  color: #3c3c3c;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 329px;
+  left: 88px;
+}
