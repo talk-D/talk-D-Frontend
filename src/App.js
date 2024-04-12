@@ -1,7 +1,8 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from './pages/Login';
 import Main from './pages/Main';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 import Community from './pages/Community';
 import Community1 from './pages/Community1';
 import Community2 from './pages/Community2';
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<Signup />} />
           <Route path='/community' element={<Community />} />
           <Route path='/community1' element={<Community1 />} />
           <Route path='/community2' element={<Community2 />} />

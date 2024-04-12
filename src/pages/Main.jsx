@@ -2,6 +2,10 @@ import React from 'react';
 import '../styles/Main.css';
 
 function MainPage() {
+    const handleMainClick = () => {
+        window.location.href = "";
+    };
+
     const handleLoginClick = () => {
         window.location.href = "login";
     };
@@ -47,7 +51,7 @@ function MainPage() {
                     <img className="searchimg" alt="Searchimg" src="searchimg.png" /> 
                     <div className="searchtext">테마명 / 작가명 검색하기</div> 
                 </div> 
-                <img className="logo" alt="Logo" src="logo.png" /> 
+                <img className="logo" alt="Logo" src="logo.png" id="mainlink" onClick={handleMainClick}/> 
                 <div className="login-signup" id="loginLink" onClick={handleLoginClick}>
                     로그인 / 회원가입
                     </div>
