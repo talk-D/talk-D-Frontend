@@ -1,10 +1,40 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import '../styles/ThemeMakestep2.css';
+import { ChromePicker } from 'react-color';
 
 function ThemeMakestep2Page() {
+  const [boxColor, setBoxColor] = useState('#ffffff');
+  const [showChromePicker, setShowChromePicker] = useState(false);
+
+  const boxRef = useRef(null);
+  const colorPickerFrameRef = useRef(null);
+  const ChromePickerRef = useRef(null);
+
   const handleStep1Click = () => {
     window.location.href = "Step1";
-};
+  };
+
+  const handleFrameClick = (e) => {
+    if (e.target.classList.contains('bottomframe')) {
+      boxRef.current.style.border = 'none';
+      colorPickerFrameRef.current.style.visibility = 'hidden';
+      setShowChromePicker(false);
+    }
+  };
+
+  const handleBoxClick = () => {
+    boxRef.current.style.border = '3px solid #FF9900';
+    colorPickerFrameRef.current.style.visibility = 'visible';
+  };
+
+  const handleColorPickerIconClick = () => {
+    setShowChromePicker(!showChromePicker);
+  };
+
+  const handleColorChange = (color) => {
+    setBoxColor(color.hex);
+  };
+
     return (
       <div className="div-wrapper">
   <div className="div">
@@ -46,8 +76,18 @@ function ThemeMakestep2Page() {
     <div className="step3frame">
       <div className="step3">STEP3. 테마 다운</div>
     </div>
-    <div className="bottomframe">
-      <div className="bottombox" />
+    <div onClick={handleFrameClick} className="bottomframe">
+      <div ref={colorPickerFrameRef} className="color-picker-frame">
+      <img onClick={handleColorPickerIconClick} alt='색상 선택' src='color-picker.png' className="color-picker-icon" />
+      {showChromePicker &&
+      <ChromePicker
+        ref={ChromePickerRef}
+        color={boxColor}
+        onChange={handleColorChange}
+      />}
+      </div>
+      {/* 클릭하면 색상 선택기 표시 */}
+      <div ref={boxRef} onClick={handleBoxClick} style={{backgroundColor: boxColor}} className="bottombox" />
       <div className="backbtnframe">
         <div className="text-wrapper-2">이전</div>
       </div>

@@ -509,3 +509,19 @@
   top: 0;
   width: 38px;
 }
+
+.color-picker-frame {
+  display: flex;
+  /* align-items: center; */
+  visibility: hidden;
+  background-color: white;
+  border: 1px solid #3D3D3D;
+  height: 47px;
+}
+
+.color-picker-icon {
+  align-self: center;
+  height: 38px;
+  width: 38px;
+  padding: 0px 6px 0px 6px;
+}
