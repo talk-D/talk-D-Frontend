@@ -2,6 +2,9 @@ import React from 'react';
 import '../styles/MyPage2.css';
 
 function Mypage2Page() {
+  const handleMyProfileClick = () => {
+    window.location.href = "mypage3";
+  }
   return (
     <div className="div-wrapper">
   <div className="div">
@@ -20,7 +23,8 @@ function Mypage2Page() {
     <img className="myprofile" alt="Myprofile" src="myprofileimg.png" />
     <div className="informationmodify-2">회원정보 수정</div>
     <div className="changepw-2">비밀번호 변경</div>
-    <div className="myprofile-2-2">내 프로필</div>
+    <div className="myprofile-2-2" id="myprofileLink" onClick={handleMyProfileClick}>
+      내 프로필</div>
     <div className="inquire-2">문의하기</div>
     <img className="mypageline" alt="Mypageline" src="line.png" />
     <div className="mypage-2">마이페이지</div>
