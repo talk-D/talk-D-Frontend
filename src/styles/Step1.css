@@ -71,7 +71,7 @@
   top: 28px;
 }
 
-.div-wrapper .searchframe {
+.div-wrapper .overlap {
   background-color: #ffffff;
   border: 1px solid;
   border-color: #6d6d6d;
@@ -113,12 +113,12 @@
   width: 117px;
 }
 
-.div-wrapper .mypage {
+.div-wrapper .step1mypage {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  left: 1131px;
+  left: 1104px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -128,10 +128,10 @@
 
 .div-wrapper .myprofileimg {
   height: 78px;
-  left: 1230px;
+  left: 1206px;
   object-fit: cover;
   position: absolute;
-  top: 63px;
+  top: 61px;
   width: 78px;
 }
 
@@ -144,23 +144,17 @@
   width: 1266px;
 }
 
-.div-wrapper .nextbtn {
-  height: 49px;
-  left: 1071px;
-  position: absolute;
-  top: 493px;
-  width: 141px;
-}
 
-.div-wrapper .overlap-group-2 {
+.div-wrapper .step1nextbtn {
   background-color: #faa422;
   border-radius: 43px;
   height: 49px;
-  position: relative;
-  width: 139px;
+  left: 1071px;
+  position: absolute;  width: 141px;
+  top: 493px;
 }
 
-.div-wrapper .text-wrapper {
+.div-wrapper .step1nexttext {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
@@ -241,7 +235,7 @@
   width: 186px;
 }
 
-.div-wrapper .theme-i-dframe {
+.div-wrapper .themeIdframe {
   background-color: #ffffff;
   border: 1px solid;
   border-color: #d9d9d9;
@@ -253,7 +247,7 @@
   width: 416px;
 }
 
-.div-wrapper .theme-ID {
+.div-wrapper .themeID {
   color: #3c3c3c;
   font-family: "Inter-SemiBold", Helvetica;
   font-size: 20px;
@@ -347,7 +341,19 @@
   width: 138px;
 }
 
-.div-wrapper .text-wrapper-2 {
+.div-wrapper .step1thumbnail {
+  color: #828282;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+}
+
+.div-wrapper .step1chattingroom {
   color: #828282;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
@@ -423,7 +429,7 @@
   width: 103px;
 }
 
-.div-wrapper .tapbar {
+.div-wrapper .step1tapbar {
   color: #828282;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
@@ -466,3 +472,5 @@
   position: absolute;
   top: 14px;
 }
+
+

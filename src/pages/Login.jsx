@@ -1,12 +1,23 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import '../styles/Login.css';
 
 function LoginPage() {
   const handleSignupClick = () => {
     window.location.href = "signup";
   };
-  const handleLoginBtnClick = () => {
-    window.location.href = "main2";
+  const handleLoginBtnClick = async () => {
+    try {
+      const response = await axios.post('백엔드로 데이터 보내는 URL', {
+        email: email,
+        password: password
+      });
+      // 로그인 성공 시에만 메인 페이지로 이동
+      window.location.href = "main2";
+    } catch (error) {
+      console.error('로그인 에러:', error);
+      // 로그인 실패 시에는 현재 창에 머무르도록 함
+    }
   };
 
   const [email, setEmail] = useState('');
