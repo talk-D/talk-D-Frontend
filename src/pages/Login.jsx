@@ -23,6 +23,18 @@ function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+    const handleKakaoLogin = async () => {
+        try {
+            // 카카오 로그인 페이지로 이동
+            const response= await axios.get("/login");
+            const { kakaoApiKey, redirectUri } = response.data;
+            const authorizationUrl = `https://kauth.kakao.com/oauth/authorize?response_type=code&client_id=${kakaoApiKey}&redirect_uri=${redirectUri}`;
+            window.location.href = authorizationUrl;
+        } catch (error) {
+            console.error('카카오 로그인 에러:', error);
+        }
+    };
+
   return (
     <div className="screen">
       <div className="loginentire">
@@ -63,7 +75,7 @@ function LoginPage() {
         </div>
         <div className="searchpw">비밀번호 찾기</div>
         <div className="searchid">아이디 찾기</div>
-        <img className="kakaologinimg" alt="Kakaologinimg" src="kakaologinimg.png" />
+        <img className="kakaologinimg" alt="Kakaologinimg" src="kakaologinimg.png" onClick={handleKakaoLogin} />
         <div className="signup" id="signup" onClick={handleSignupClick}>
           이메일로 회원가입하기
         </div>

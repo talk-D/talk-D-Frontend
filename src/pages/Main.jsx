@@ -6,6 +6,10 @@ function MainPage() {
         window.location.href = "";
     };
 
+    const handleLogoClick = () => {
+        window.location.href = "header";
+    };
+
     const handleLoginClick = () => {
         window.location.href = "login";
     };
@@ -51,7 +55,7 @@ function MainPage() {
                     <img className="searchimg" alt="Searchimg" src="searchimg.png" /> 
                     <div className="searchtext">테마명 / 작가명 검색하기</div> 
                 </div> 
-                <img className="logo" alt="Logo" src="logo.png" id="mainlink" onClick={handleMainClick}/> 
+                <img className="logo" alt="Logo" src="logo.png" id="mainlink" onClick={handleLogoClick}/> 
                 <div className="login-signup" id="loginLink" onClick={handleLoginClick}>
                     로그인 / 회원가입
                     </div>
