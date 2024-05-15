@@ -30,8 +30,8 @@ function Main2Page() {
         <div className="screen"> 
             <div className="div"> 
                 <div className="bottomframe"> 
-                    <div className="hottheme">실시간 핫한 테마를&nbsp;&nbsp;만나보세요!</div> 
-                    <div className="todaytheme">오늘의 인기 테마</div> 
+                    <div className="hottheme2">실시간 핫한 테마를&nbsp;&nbsp;만나보세요!</div> 
+                    <div className="todaytheme2">오늘의 인기 테마</div> 
                 </div> 
                 <div className="thememenu"> 
                     <div className="thememake" id="ThemeMakeBtn" onClick={handleThemeMakeClick}>
