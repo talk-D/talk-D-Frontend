@@ -1,325 +1,203 @@
-.div-wrapper {
+.screen2{
   background-color: #ffffff;
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+  flex-direction: column; 
+  width: 100vw;
+  height: 50rem;
 }
 
-.div-wrapper .div {
-  background-color: #ffffff;
-  height: 1024px;
-  position: relative;
-  width: 1440px;
+.screen2 .steps-wrapper  {
+  margin-top: 0.6rem;
 }
 
-.div-wrapper .mypage {
-  color: #000000;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 1131px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 94px;
-  white-space: nowrap;
-}
-
-.div-wrapper .thememenu {
-  background-color: #fafafa;
-  height: 84px;
-  left: 87px;
-  position: absolute;
-  top: 173px;
-  width: 1266px;
-}
-
-.div-wrapper .viewtheme {
-  color: #828282;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 24px;
-  font-weight: 400;
-  left: 158px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 28px;
-}
-
-.div-wrapper .thememake {
-  color: #3c3c3c;
-  font-family: "Inter-SemiBold", Helvetica;
-  font-size: 24px;
-  font-weight: 600;
-  left: 474px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 28px;
-}
-
-.div-wrapper .mystorage {
-  color: #828282;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 24px;
-  font-weight: 400;
-  left: 1011px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 28px;
-}
-
-.div-wrapper .community {
-  color: #828282;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 24px;
-  font-weight: 400;
-  left: 746px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 28px;
-}
-
-.div-wrapper .searchframe {
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: #6d6d6d;
-  border-radius: 143px;
-  height: 75px;
-  left: 387px;
-  position: absolute;
-  top: 64px;
-  width: 666px;
-}
-
-.div-wrapper .searchimg {
-  height: 50px;
-  left: 591px;
-  position: absolute;
-  top: 11px;
-  width: 50px;
-}
-
-.div-wrapper .searchtext {
-  color: #cec9c9;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 45px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 24px;
-  white-space: nowrap;
-}
-
-.div-wrapper .profileimg {
-  height: 78px;
-  left: 1230px;
-  object-fit: cover;
-  position: absolute;
-  top: 63px;
-  width: 78px;
-}
-
-.div-wrapper .logo {
-  height: 58px;
-  left: 183px;
-  object-fit: cover;
-  position: absolute;
-  top: 73px;
-  width: 117px;
-}
-
-.div-wrapper .step1frame {
+.screen2 .step1frame {
   background-color: #e6e6e6;
   border-radius: 55px;
-  height: 59px;
-  left: 99px;
+  height: 3.6rem;
+  left: 6rem;
   position: absolute;
-  top: 272px;
-  width: 226px;
+  top: 17rem;
+  width: 14rem;
 }
 
-.div-wrapper .step1 {
+.screen2 .step1 {
   color: #828282;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 23px;
+  left: 1.4rem;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 14px;
+  top: 0.8rem;
 }
 
-.div-wrapper .step2frame {
+.screen2 .step2frame {
   background-color: #e6e6e6;
   border-radius: 55px;
-  height: 59px;
-  left: 347px;
+  height: 3.6rem;
+  left: 21rem;
   position: absolute;
-  top: 272px;
-  width: 226px;
+  top: 17rem;
+  width: 14rem;
 }
 
-.div-wrapper .step2 {
+.screen2 .step2 {
   color: #3c3c3c;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 23px;
+  left: 1.4rem;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 14px;
+  top: 0.8rem;
 }
 
-.div-wrapper .thumbnail-wrapper {
+.screen2 .thumbnail-wrapper {
   background-color: #f4f4f4;
   border-radius: 55px;
-  height: 59px;
-  left: 350px;
+  height: 3.6rem;
+  left: 21.8rem;
   position: absolute;
-  top: 346px;
-  width: 138px;
+  top: 21.6rem;
+  width: 8.6rem;
 }
 
-.div-wrapper .thumbnail {
+.screen2 .thumbnail {
   color: #3c3c3c;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 36px;
+  left: 2.2rem;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 14px;
+  top: 0.8rem;
 }
 
-.div-wrapper .pw-wrapper {
+.screen2 .pw-wrapper {
   background-color: #f4f4f4;
   border-radius: 55px;
-  height: 59px;
-  left: 500px;
+  height: 3.6rem;
+  left: 31rem;
   position: absolute;
-  top: 346px;
-  width: 138px;
+  top: 21.6rem;
+  width: 8.6rem;
 }
 
-.div-wrapper .pw {
+.screen2 .pw {
   color: #828282;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 26px;
+  left: 1.6rem;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 14px;
+  top: 0.8rem;
 }
 
-.div-wrapper .friendlist-wrapper {
+.screen2 .friendlist-wrapper {
   background-color: #f4f4f4;
   border-radius: 55px;
-  height: 59px;
-  left: 650px;
+  height: 3.6rem;
+  left: 40rem;
   position: absolute;
-  top: 346px;
-  width: 138px;
+  top: 21.6rem;
+  width: 8.6rem;
 }
 
-.div-wrapper .friendlist {
+.screen2 .friendlist {
   color: #828282;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 21px;
+  left: 1.3rem;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 14px;
+  top: 0.8rem;
 }
 
-.div-wrapper .chattingroom-wrapper {
+.screen2 .chattingroom-wrapper {
   background-color: #f4f4f4;
   border-radius: 55px;
-  height: 59px;
-  left: 915px;
+  height: 3.6rem;
+  left: 57rem;
   position: absolute;
-  top: 346px;
-  width: 138px;
+  top: 21rem;
+  width: 8.6rem;
 }
 
-.div-wrapper .chattingroom {
+.screen2 .chattingroom {
   color: #828282;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 36px;
+  left: 2.2rem;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 14px;
+  top: 0.8rem;
 }
 
-.div-wrapper .tapbar-wrapper {
+.screen2 .tapbar-wrapper {
   background-color: #f4f4f4;
   border-radius: 55px;
-  height: 59px;
-  left: 800px;
+  height: 3.6rem;
+  left: 50rem;
   position: absolute;
-  top: 346px;
-  width: 103px;
+  top: 21.6rem;
+  width: 6.4rem;
 }
 
-.div-wrapper .tapbar {
+.screen2 .tapbar {
   color: #828282;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 29px;
+  left: 1.8rem;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 14px;
+  top: 0.8rem;
 }
 
-.div-wrapper .step3frame {
+.screen2 .step3frame {
   background-color: #e6e6e6;
   border-radius: 55px;
-  height: 59px;
-  left: 1116px;
+  height: 3.6rem;
+  left: 69rem;
   position: absolute;
-  top: 272px;
-  width: 226px;
+  top: 17rem;
+  width: 14rem;
 }
 
-.div-wrapper .step3 {
+.screen2 .step3 {
   color: #828282;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 23px;
+  left: 1.4rem;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 14px;
+  top: 0.8rem;
 }
 
-.div-wrapper .bottomframe {
+.screen2 .bottomframe {
   background-color: #f4f4f4;
-  height: 586px;
-  left: 87px;
+  height: 36.6rem;
+  left: 5.4rem;
   position: absolute;
-  top: 438px;
-  width: 1266px;
+  top: 27rem;
+  width: 79rem;
 }
 
-.div-wrapper .bottombox {
+.screen2 .bottombox {
   background-color: #ffffff;
   height: 336px;
   left: 454px;
@@ -328,7 +206,7 @@
   width: 336px;
 }
 
-.div-wrapper .backbtnframe {
+.screen2 .backbtnframe {
   background-color: #e6e6e6;
   border-radius: 43px;
   height: 49px;
@@ -338,7 +216,7 @@
   width: 139px;
 }
 
-.div-wrapper .text-wrapper-2 {
+.screen2 .text-wrapper-2 {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
@@ -352,7 +230,7 @@
   width: 121px;
 }
 
-.div-wrapper .nextbtnframe {
+.screen2 .nextbtnframe {
   background-color: #faa422;
   border-radius: 43px;
   height: 49px;
@@ -362,7 +240,7 @@
   width: 139px;
 }
 
-.div-wrapper .notification-wrapper {
+.screen2 .notification-wrapper {
   background-color: #f4f4f4;
   border-radius: 55px;
   height: 59px;
@@ -372,7 +250,7 @@
   width: 138px;
 }
 
-.div-wrapper .notification {
+.screen2 .notification {
   color: #828282;
   font-family: "Inter-Regular", Helvetica;
   font-size: 24px;
@@ -384,7 +262,7 @@
   top: 14px;
 }
 
-.div-wrapper .leftbox {
+.screen2 .leftbox {
   background-color: #ffffff;
   border: 1px solid;
   border-color: #828282;
@@ -396,7 +274,7 @@
   width: 87px;
 }
 
-.div-wrapper .shape-icon {
+.screen2 .shape-icon {
   height: 59px;
   left: 21px;
   position: absolute;
@@ -404,7 +282,7 @@
   width: 46px;
 }
 
-.div-wrapper .shapeiconframe {
+.screen2 .shapeiconframe {
   color: #3c3c3c;
   font-family: "Inter-Regular", Helvetica;
   font-size: 12px;
@@ -416,7 +294,7 @@
   top: 44px;
 }
 
-.div-wrapper .shapeicon {
+.screen2 .shapeicon {
   height: 44px;
   left: 0;
   position: absolute;
@@ -424,7 +302,7 @@
   width: 44px;
 }
 
-.div-wrapper .basic-icon {
+.screen2 .basic-icon {
   height: 56px;
   left: 13px;
   position: absolute;
@@ -432,7 +310,7 @@
   width: 61px;
 }
 
-.div-wrapper .basiciconframe {
+.screen2 .basiciconframe {
   color: #3c3c3c;
   font-family: "Inter-Regular", Helvetica;
   font-size: 12px;
@@ -444,7 +322,7 @@
   top: 41px;
 }
 
-.div-wrapper .basicicon {
+.screen2 .basicicon {
   height: 40px;
   left: 9px;
   position: absolute;
@@ -452,7 +330,7 @@
   width: 40px;
 }
 
-.div-wrapper .text-icon {
+.screen2 .text-icon {
   height: 37px;
   left: 26px;
   position: absolute;
@@ -460,7 +338,7 @@
   width: 36px;
 }
 
-.div-wrapper .texticonframe {
+.screen2 .texticonframe {
   color: #3c3c3c;
   font-family: "Inter-Regular", Helvetica;
   font-size: 12px;
@@ -472,7 +350,7 @@
   top: 22px;
 }
 
-.div-wrapper .texticon {
+.screen2 .texticon {
   height: 18px;
   left: 3px;
   position: absolute;
@@ -480,7 +358,7 @@
   width: 28px;
 }
 
-.div-wrapper .mystorage-icon {
+.screen2 .mystorage-icon {
   height: 53px;
   left: 15px;
   position: absolute;
@@ -488,7 +366,7 @@
   width: 57px;
 }
 
-.div-wrapper .mystorageiconframe {
+.screen2 .mystorageiconframe {
   color: #3c3c3c;
   font-family: "Inter-Regular", Helvetica;
   font-size: 12px;
@@ -502,7 +380,7 @@
   width: 55px;
 }
 
-.div-wrapper .mystorageicon {
+.screen2 .mystorageicon {
   height: 38px;
   left: 8px;
   position: absolute;

@@ -41,13 +41,13 @@ const Header = ({
     return (
         <div className="header">
             <div className="header1">
-                <img className="logo" alt="Logo" src="logo.png" id="mainlink" onClick={handleMainClick} />
+                <img className="logo" alt="Logo" src="logo.svg" id="mainlink" onClick={handleMainClick} />
                 <div className="searchframe">
-                    <img className="searchimg" alt="Searchimg" src="searchimg.png" />
+                    <img className="searchimg" alt="Searchimg" src="searchimg.svg" />
                     <div className="searchtext">테마명 / 작가명 검색하기</div>
                 </div>
                 <div className="headersignup" id="SignUpLink" onClick={handleSignUpClick}>로그인/회원가입 </div>
-                <img className="myprofile" alt="Myprofile" src="myprofileimg.png" />
+                <img className="myprofile" alt="Myprofile" src="myprofileimg.svg" />
             </div>
             <div className="navbar">
                 <div className={`thememake ${themeMakeClicked ? 'clicked' : ''}`} onClick={handleThemeMakeClick}>
